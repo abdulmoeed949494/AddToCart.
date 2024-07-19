@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card {
+  justify-content: space-between;
+  background-color: aqua;
+  padding: 20px 30px;
+}
+
+.product-item {
+  padding: 20px;
+}
+
+.btn {
+  padding: 10px;
+  height: 20%;
+  background-color: #179957;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price {
+  color: red;
+}
+
+.seller {
+  color: blue;
+}
+
+.name {
+  color: green;
+}
+
+.image {
+  border: 4px solid lightgray;
+}
