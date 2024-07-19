@@ -107,7 +107,7 @@ const App = () => {
       const p = cart.find(i => i.id === id);
       if (p.quantity === 1) {
         
-        const updatedCart = cart.filter((item) => item.quantity === 0);
+        const updatedCart = cart.filter((item) => item.id != id);
         setCart(updatedCart);
       } else {
 
